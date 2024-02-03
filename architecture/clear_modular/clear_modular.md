@@ -40,3 +40,39 @@ Funcionalidades (módulos) da aplicação, onde individualmente se encontram:
 - ***example*_page.dart:** página principal do módulo, para onde se refere a raiz da navegação do módulo referido e onde acontece o gerenciamento de estados;
 - ***example*_states.dart:** estados gerenciados pelo controller;
 - ***example*_module.dart:** subclasse de Module ([package: flutter_modular](#injeção-de-dependências)) onde é feita a injeção de dependências e o gerenciamento de sub-rotas.
+
+---
+
+
+# FLUXO DE FUNCIONAMENTO DAS CAMADAS
+```mermaid
+flowchart LR;
+    subgraph Core;
+    end;
+    subgraph External;
+    E(Client);
+    F(Service);
+    G(Cache);
+    end;
+    subgraph Data;
+    D(Repository);
+    end;
+    subgraph Domain;
+    C(UseCase);
+    end;
+    subgraph Modules;
+    B(Controller);
+    end;
+    B -->|request| C;
+    C -->|request| D;
+    D -->|request| E;
+    E -->|Map| D;
+    D -->|Object| C;
+    C -->|dynamic| B;
+    D -->|request| F;
+    F -->|dynamic| D;
+    D -->|request| G;
+    G -->|dynamic| D;
+```
+
+[<= Voltar](/README.md)
