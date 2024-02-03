@@ -43,36 +43,4 @@ Funcionalidades (módulos) da aplicação, onde individualmente se encontram:
 
 ---
 
-
-# FLUXO DE FUNCIONAMENTO DAS CAMADAS
-```mermaid
-flowchart LR;
-    subgraph Core;
-    end;
-    subgraph External;
-    E(Client);
-    F(Service);
-    G(Cache);
-    end;
-    subgraph Data;
-    D(Repository);
-    end;
-    subgraph Domain;
-    C(UseCase);
-    end;
-    subgraph Modules;
-    B(Controller);
-    end;
-    B -->|request| C;
-    C -->|request| D;
-    D -->|request| E;
-    E -->|Map| D;
-    D -->|Object| C;
-    C -->|dynamic| B;
-    D -->|request| F;
-    F -->|dynamic| D;
-    D -->|request| G;
-    G -->|dynamic| D;
-```
-
 [<= Voltar](/README.md)
