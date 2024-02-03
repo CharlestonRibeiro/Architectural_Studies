@@ -19,7 +19,7 @@ Camada de abstração para acesso a dados, responsável pela comunicação com f
 - **example_dto.dart**: Objetos utilizados para transferir dados entre processos, facilitando a comunicação com a API:
 
 ### Models
-- **example.dart**: Representações de entidades de negócio usadas em todo o aplicativo.
+- **example_model.dart**: Representações de entidades de negócio usadas em todo o aplicativo.
 
 ### Modules
 Funcionalidades (módulos) da aplicação, onde individualmente se encontram:
