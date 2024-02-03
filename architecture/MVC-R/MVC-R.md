@@ -1,7 +1,5 @@
 # MVC-R
 
-### A estrutura:
-
 ### Core
 Componentes centrais do código, compartilhados entre os módulos:
 
