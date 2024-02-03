@@ -1,8 +1,5 @@
 # Clear Modular
 
-
-### A estrutura:
-
 ### Core
 Componentes centrais do código, compartilhados entre os módulos:
 - **errors:** interface de erro `AppError` da qual devem descender todos os subtipos erro tratados na aplicação;
