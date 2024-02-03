@@ -24,7 +24,7 @@ A arquitetura ``Clean Modular`` é uma abordagem no desenvolvimento de software 
 
 - [Clean Modular](architecture/clear_modular/clear_modular.md).
 
-``Projetos indicados:`` 
+**Projetos indicados**:
 
 ## MVC-R
 
@@ -32,4 +32,4 @@ A arquitetura "MVC-R" é uma abordagem simples que consome dados de uma API e os
 
 - [MVC-R](architecture/MVC-R/MVC-R.md).
 
-``Projetos indicados:``
+**Projetos indicados**:
