@@ -13,9 +13,6 @@ Camada de abstração para acesso a dados, responsável pela comunicação com f
 - **example_repository**: Classe para autenticação e conversão de dados.
 - **clients/clients.dart:** classes que implementam requisições de API;
 
-### DTO (Data Transfer Object)
-- **example_dto.dart**: Objetos utilizados para transferir dados entre processos, facilitando a comunicação com a API:
-
 ### Models
 - **example_model.dart**: Representações de entidades de negócio usadas em todo o aplicativo.
 
