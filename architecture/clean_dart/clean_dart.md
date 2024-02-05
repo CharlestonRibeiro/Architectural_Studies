@@ -1,4 +1,4 @@
-# clean dart
+# Clean dart
 
 A arquitetura é inspirada na proposta do clean dart 2.0, encontrada no repositório [Clean Dart](https://github.com/Flutterando/Clean-Dart/tree/2.0) da comunidade Flutterando.
 
@@ -12,25 +12,25 @@ DATA - DOMAIN - UI
 
 ### DATA
 
-Esta camada dá suporte a camada Interactor implementando suas interfaces. Para isso, adapta os dados externos para que possa cumprir os contratos do domínio.
+Esta camada dá suporte à camada **Interactor**, implementando suas interfaces. Para isso, adapta os dados externos para que possa cumprir os contratos do domínio.
 
-Muito provavelmente nessa camada iremos implementar alguma interface de um Repository ou Services que pode ou não depender de dados externos como uma API ou acesso a algum Hardware como por exemplo Bluetooth.
+Muito provavelmente nessa camada iremos implementar alguma interface de um Repository ou Service que pode ou não depender de dados externos, como uma API ou acesso a algum Hardware (como, por exemplo, Bluetooth).
 
-Para que o Repository possa processar e adaptar os dados externos devemos criar contratos para esses serviços visando passar a responsabilidade de implementação para a camada mais baixa da nossa arquitetura.
+Para que o Repository possa processar e adaptar os dados externos, devemos criar contratos para esses serviços visando passar a responsabilidade de implementação para a camada mais baixa da nossa arquitetura.
 
-Basicamente a camada DATA deve conter tudo aquilo que terá grandes chances de ser alterado sem que o programador possa intervir diretamente no projeto.
+Basicamente, a camada `DATA` deve conter tudo aquilo que terá grandes chances de ser alterado sem que o programador possa intervir diretamente na lógica interna do projeto.
 
 ### DOMAIN
 
-A camada de `DOMAIN` hospedará as Regras de Negócio da aplicação junto aos seus estados. O núcleo da camada será a elaboração do estado e a prograpação por de alguma abordagem de gerenciamento de estado.
+A camada de `DOMAIN` hospedará as Regras de Negócio da aplicação junto aos seus estados. O núcleo da camada será a elaboração do estado e a prograpação por meio de alguma abordagem de gerenciamento de estado.
 
-Tomando um Repository como exemplo, teremos que ter apenas o contrato de interfaces(Abstrações) e a responsabilidade de implementação desse objeto deverá ser repassado a outra camada mais baixa.
+Tomando um Repository como exemplo, teremos apenas o contrato de interfaces (abstrações) e a responsabilidade de implementação desse objeto deverá ser repassado a outra camada mais baixa.
 
 ### UI
 
 A Camada `UI` fica responsável por declarar as entradas, saídas e interações da aplicação.
 
-Usando o Flutter como exemplo, hospedaremos os Widgets e Pages, já no backend como exemplo, seria nesta camada onde colocaríamos os Handlers ou Commands da nossa API.
+Usando o Flutter como exemplo, hospedaremos os Widgets e Pages; já no backend como exemplo, seria nesta camada onde colocaríamos os Handlers ou Commands da nossa API.
 
 ---
 
