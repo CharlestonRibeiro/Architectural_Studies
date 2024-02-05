@@ -25,9 +25,18 @@ A arquitetura ``Clean Modular`` é uma abordagem no desenvolvimento de software 
 
 **Projetos indicados**:
 
+### Clean Dart
+
+A arquitetura ``Clean Dart`` propõe uma separação clara e desacoplada entre as camadas de dados, domínio e interface do usuário. 
+
+- [Clean Dart](architecture/clean_dart/clean_dart.md).
+
+**Projetos indicados**:
+
+
 ### MVC-R
 
-A arquitetura "MVC-R" é uma abordagem simples que consome dados de uma API e os exibe na tela com o mínimo de processamento. Em um fluxo básico, o dado vem do repositório, segue para o controlador e é então apresentado na tela.
+A arquitetura ``MVC-R`` é uma abordagem simples que consome dados de uma API e os exibe na tela com o mínimo de processamento. Em um fluxo básico, o dado vem do repositório, segue para o controlador e é então apresentado na tela.
 
 - [MVC-R](architecture/MVC-R/MVC-R.md).
 
