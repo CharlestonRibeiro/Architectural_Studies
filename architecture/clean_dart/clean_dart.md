@@ -108,3 +108,5 @@ Módulo ou recurso específico do aplicativo.
 
 - **exemplo_page.dart**: Tela de interface do usuário.
 - **components:** componentes visuais utilizados apenas pelo módulo referido;
+
+[<= Voltar](/README.md)
