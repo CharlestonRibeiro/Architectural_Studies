@@ -7,7 +7,7 @@ A arquitetura é inspirada na proposta do clean dart 2.0, encontrada no reposit�
 A proposta de Arquitetura de desacoplar as camadas se baseia em:
 
 ``
-DATA - DOMAIN - UI
+DATA - INTERACTOR - UI
 ``
 
 ### DATA
@@ -20,9 +20,9 @@ Para que o Repository possa processar e adaptar os dados externos, devemos criar
 
 Basicamente, a camada `DATA` deve conter tudo aquilo que terá grandes chances de ser alterado sem que o programador possa intervir diretamente na lógica interna do projeto.
 
-### DOMAIN
+### INTERACTOR
 
-A camada de `DOMAIN` hospedará as Regras de Negócio da aplicação junto aos seus estados. O núcleo da camada será a elaboração do estado e a prograpação por meio de alguma abordagem de gerenciamento de estado.
+A camada de `INTERACTOR` hospedará as Regras de Negócio da aplicação junto aos seus estados. O núcleo da camada será a elaboração do estado e a prograpação por meio de alguma abordagem de gerenciamento de estado.
 
 Tomando um Repository como exemplo, teremos apenas o contrato de interfaces (abstrações) e a responsabilidade de implementação desse objeto deverá ser repassado a outra camada mais baixa.
 
@@ -46,11 +46,11 @@ Podemos manter nossas camadas para a aplicação inteira, mas podemos ter um mel
     │   └── modulos/
     │       ├── auth/
     │       │   ├── data/
-    │       │   ├── domain/
+    │       │   ├── interactor/
     │       │   └── ui/
     │       ├── home/
     │       │   ├── data/
-    │       │   ├── domain/
+    │       │   ├── interactor/
     │       │   └── ui/
     │       └── ...
     └── main.dart
@@ -87,7 +87,7 @@ Módulo ou recurso específico do aplicativo.
 - **errors/**
  **errors.dart**: Erros específicos.
 
-#### domain/
+#### Interactor/
 
 - **controller/**
  **exemplo_bloc.dart**: Componente de lógica de negócios para o gerenciamento do estado.

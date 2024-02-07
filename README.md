@@ -27,7 +27,7 @@ A arquitetura ``Clean Modular`` é uma abordagem no desenvolvimento de software 
 
 ### Clean Dart
 
-A arquitetura ``Clean Dart`` propõe uma separação clara e desacoplada entre as camadas de dados, domínio e interface do usuário. 
+A arquitetura ``Clean Dart`` propõe uma separação clara e desacoplada enre as camadas de dados, domínio e interface do usuário. 
 
 - [Clean Dart](architecture/clean_dart/clean_dart.md).
 
