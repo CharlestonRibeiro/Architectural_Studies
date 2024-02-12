@@ -1,4 +1,4 @@
-# Clean dart
+# FlexDomain
 
 A arquitetura é inspirada na proposta do clean dart 2.0, encontrada no repositório [Clean Dart](https://github.com/Flutterando/Clean-Dart/tree/2.0) da comunidade Flutterando.
 
