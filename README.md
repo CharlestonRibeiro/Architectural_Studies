@@ -17,29 +17,34 @@ Cada uma dessas categorias representa uma decisão arquitetural que pode afetar 
 
 ## Estruturas
 
-### Clean Modular
+### [Clean Modular](architecture/clear_modular/clear_modular.md)
 
-A arquitetura ``Clean Modular`` é uma abordagem no desenvolvimento de software que se baseia nos princípios da Arquitetura Limpa (Clean Architecture).
+Esta arquitetura é uma abordagem no desenvolvimento de software que se baseia nos princípios da Arquitetura Limpa (Clean Architecture). Ela é ideal para projetos que necessitam de uma estrutura robusta e escalável. Esta arquitetura será ajustada especificamente para o seu aplicativo.
 
-- [Clean Modular](architecture/clear_modular/clear_modular.md).
+### [Flex Domain](architecture/flex_domain/flex_domain.md)
 
-**Projetos indicados**: 
+Esta arquitetura é especialmente útil para projetos que requerem uma separação clara de responsabilidades entre as diferentes partes do sistema. Esta arquitetura será ajustada especificamente para o seu aplicativo.
 
-### Flex Domain
+### [MVC+R](architecture/MVC+R/MVC+R.md)
 
-A arquitetura ``Flex Domain`` propõe uma separação clara e desacoplada enre as camadas de dados, domínio e interface do usuário. 
+A arquitetura ``MVC+R`` é uma abordagem simples que consome dados de uma API e os exibe na tela com o mínimo de processamento. Em um fluxo básico, o dado vem do repositório, segue para o controlador e é então apresentado na tela. Esta arquitetura é ideal para projetos que necessitam de uma rápida entrega de dados ao usuário. Esta arquitetura será ajustada especificamente para o seu aplicativo.
 
-- [Flex Domain](architecture/flex_domain/flex_domain.md).
+---
 
-**Projetos indicados**: 
+**Recomendação para Projetos**:
+> **X**: Indica que a arquitetura é a mais indicada para o tipo de projeto em questão. Isso significa que, com base nas características do projeto, essa arquitetura é a mais adequada.
+> 
+> **O**: Indica que a arquitetura também é aceita para o tipo de projeto. Embora não seja a opção mais indicada, ainda é uma escolha viável e pode ser usada se necessário.
 
-### MVC+R
-
-A arquitetura ``MVC+R`` é uma abordagem simples que consome dados de uma API e os exibe na tela com o mínimo de processamento. Em um fluxo básico, o dado vem do repositório, segue para o controlador e é então apresentado na tela.
-
-- [MVC+R](architecture/MVC+R/MVC+R.md).
-
-**Projetos indicados**: 
+| Tipo de Projeto | Clean Modular | FlexiDomain | MVC+R |
+|:----------------|:-------------:|:-----------:|:-----:|
+| Uma API         |               |             |   X   |
+| Mais de uma API / Possibilidade de migração |               |      X       |       |
+| Um SAAS         |       X       |      O      |       |
+| Uma API com SAAS|       X       |             |       |
+| Uma API com DB_local |    X    |      O      |       |
+| Um DB_local     |               |             |   X   |
+| Um SAAS com DB_local |    X    |             |       |
 
 ---
 > [!IMPORTANT]
