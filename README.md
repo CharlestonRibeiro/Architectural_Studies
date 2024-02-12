@@ -29,7 +29,7 @@ A arquitetura ``Clean Modular`` é uma abordagem no desenvolvimento de software 
 
 A arquitetura ``Flex Domain`` propõe uma separação clara e desacoplada enre as camadas de dados, domínio e interface do usuário. 
 
-- [Clean Dart](architecture/clean_dart/clean_dart.md).
+- [Flex Domain](architecture/clean_dart/clean_dart.md).
 
 **Projetos indicados**: 
 
