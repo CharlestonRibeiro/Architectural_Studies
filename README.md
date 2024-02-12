@@ -33,11 +33,11 @@ A arquitetura ``Flex Domain`` propõe uma separação clara e desacoplada enre a
 
 **Projetos indicados**: 
 
-### MVC-R
+### MVC+R
 
-A arquitetura ``MVC-R`` é uma abordagem simples que consome dados de uma API e os exibe na tela com o mínimo de processamento. Em um fluxo básico, o dado vem do repositório, segue para o controlador e é então apresentado na tela.
+A arquitetura ``MVC+R`` é uma abordagem simples que consome dados de uma API e os exibe na tela com o mínimo de processamento. Em um fluxo básico, o dado vem do repositório, segue para o controlador e é então apresentado na tela.
 
-- [MVC-R](architecture/MVC-R/MVC-R.md).
+- [MVC+R](architecture/MVC+R/MVC+R.md).
 
 **Projetos indicados**: 
 
