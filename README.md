@@ -54,4 +54,4 @@ A arquitetura ``MVC+R`` é uma abordagem simples que consome dados de uma API e 
 > 
 > **EXEMPLOS:**
 >
-> Aqui está a documentação arquitetural de uma aplicação, na qual temos uma API e apenas um serviço da Google para consumo externo: [MVC+R](real_cases/mvc+r.dart).
+> Aqui está a documentação arquitetural de uma aplicação, na qual temos uma API e apenas um serviço da Google para consumo externo: [MVC+R](real_cases/mvc+r.md).
