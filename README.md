@@ -51,7 +51,7 @@ A arquitetura ``MVC+R`` é uma abordagem simples que consome dados de uma API e 
 > Embora essas arquiteturas forneçam uma estrutura base, elas são flexíveis e podem ser adaptadas para atender às necessidades específicas do seu aplicativo. Isso significa que, enquanto a arquitetura fornece um roteiro geral, a implementação específica pode variar dependendo dos requisitos do seu aplicativo.
 >
 > Portanto, enquanto você começa com uma dessas arquiteturas base, o resultado final será uma arquitetura personalizada que é perfeitamente adequada para o seu aplicativo. Isso permite que você aproveite os benefícios dessas arquiteturas comprovadas, ao mesmo tempo que garante que o seu aplicativo seja único e otimizado para as suas necessidades específicas.
-
-> [!EXEMPLOS]
+> 
+> **EXEMPLOS:**
 >
 > Aqui está a documentação arquitetural de uma aplicação, na qual temos uma API e apenas um serviço da Google para consumo externo: [MVC+R](real_cases/mvc+r.dart).
