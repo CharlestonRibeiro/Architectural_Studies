@@ -10,7 +10,7 @@ do sistema, na sua manutenção, na sua operação e, em última análise, no su
 
 Aqui estão os conceitos básicos de programação que são decisivos em todos os projetos:
 
-- [Classes](basic/classes.md), [Métodos](basic/methods.md), [Variáveis](basic/variables.md), [Comentário ](basic/comments.md), [Imports](basic/Imports.md), [Pacotes](basic/packages.md), [SOLID](basic/solid.md), [GitHub](gitHub/gitHub.md).
+- [Classes](basic/classes.md), [Métodos](basic/methods.md), [Variáveis](basic/variables.md), [Comentário ](basic/comments.md), [Imports](basic/imports.md), [Pacotes](basic/packages.md), [SOLID](basic/solid.md), [GitHub](gitHub/gitHub.md).
 
 Cada uma dessas categorias representa uma decisão arquitetural que pode afetar diretamente a qualidade e a robustez de um sistema de software.
 
