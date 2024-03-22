@@ -18,6 +18,9 @@
 │   ├── theme
 │   ├── utils
 │   └── widgets
+├── service
+│   ├── abstract_service
+│   └── interface_service
 ├── data
 │   ├── clients
 │   ├── repositories
@@ -41,6 +44,11 @@ Componentes centrais do código, compartilhados entre os módulos:
 - **theme:** classes para gerenciamento de temas e componentes de UI;
 - **utils:** elementos de valor constante, enums, extensões e classe para centralizar validadores de formulários;
 - **widgets:** todos os widgets componentizados e/ou personalizados que sejam utilizados por mais de um [module](#modules).
+
+### Services
+Camada de alto nível responsável pela integração com serviços externos:
+- **abstract_service:** classes que implementam requisições a serviços.
+- **interface_service:** classes de contratos de requisições a serviços.
 
 ### Data
 Camada de abstração para acesso a dados, responsável pela comunicação com fontes de dados externas:
