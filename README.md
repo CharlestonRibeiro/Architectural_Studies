@@ -17,7 +17,7 @@ Cada uma dessas categorias representa uma decisão arquitetural que pode afetar 
 
 ## Estruturas
 
-### [Clean Modular](architecture/clear_modular/clear_modular.md)
+### [Clean Modular](architecture/clean_modular/clean_modular.md)
 
 Esta arquitetura é uma abordagem no desenvolvimento de software que se baseia nos princípios da Arquitetura Limpa (Clean Architecture). Ela é ideal para projetos que necessitam de uma estrutura robusta e escalável. Esta arquitetura será ajustada especificamente para o seu aplicativo.
 
